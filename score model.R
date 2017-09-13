@@ -21,8 +21,8 @@ table(all_var$Bad_label)
 #     0     1 
 # 22892  1004 
 
-## If value is 0 ¨C it means customer has good credit history
-## If value is 1 ¨C it means customer has falls into 30 DPD + bucket
+## If value is 0 Â¨C it means customer has good credit history
+## If value is 1 Â¨C it means customer has falls into 30 DPD + bucket
 
 
 ############################ delete data with more than 95% NAs #########################################
@@ -129,8 +129,6 @@ iv_value <- model_iv[, c(1,3)]
 # range(iv_value[,2])
 # [1] 1.876582e-04 1.273144e+01
 # 
-# length(iv_value[,1])
-# [1] 78
 #
 ## set the minimum IV be the 40th greatest
 
