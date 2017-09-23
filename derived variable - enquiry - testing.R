@@ -1,5 +1,4 @@
 setwd("E:/test/test data")
-setwd("C:/Users/wangjy/Desktop")
 
 raw_enquiry_testing <- read.csv("./raw_enquiry_30_new.csv", header = T,
                                  
